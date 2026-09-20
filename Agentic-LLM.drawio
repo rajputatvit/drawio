@@ -1,0 +1,199 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36">
+  <diagram name="Page-1" id="dIX_jnLEULt02SFV0JA9">
+    <mxGraphModel dx="3238" dy="1544" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ogPiMR6M-POD2ve37KdV-1" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;verticalAlign=bottom;labelPosition=center;verticalLabelPosition=top;align=center;size=65;" value="User" vertex="1">
+          <mxGeometry height="1408" width="35" x="20" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ogPiMR6M-POD2ve37KdV-2" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" value="Agent App" vertex="1">
+          <mxGeometry height="1408" width="150" x="352" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ogPiMR6M-POD2ve37KdV-3" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" value="LLM (OpenAI)" vertex="1">
+          <mxGeometry height="1408" width="150" x="921" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ogPiMR6M-POD2ve37KdV-4" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" value="MCP Server" vertex="1">
+          <mxGeometry height="1408" width="150" x="1121" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ogPiMR6M-POD2ve37KdV-5" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" value="Calculator Tool" vertex="1">
+          <mxGeometry height="1408" width="150" x="1365" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ogPiMR6M-POD2ve37KdV-6" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" value="Weather Tool" vertex="1">
+          <mxGeometry height="1408" width="150" x="1565" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ogPiMR6M-POD2ve37KdV-7" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" value="Dictionary Tool" vertex="1">
+          <mxGeometry height="1408" width="150" x="1765" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ogPiMR6M-POD2ve37KdV-8" edge="1" parent="1" source="ogPiMR6M-POD2ve37KdV-1" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="ogPiMR6M-POD2ve37KdV-2" value="Ask question (e.g. &quot;Multiply 9 and 6&quot;)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="270" y="127" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ogPiMR6M-POD2ve37KdV-9" edge="1" parent="1" source="ogPiMR6M-POD2ve37KdV-2" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="ogPiMR6M-POD2ve37KdV-3" value="Send task + available tools">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="720" y="179" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ogPiMR6M-POD2ve37KdV-10" edge="1" parent="1" source="ogPiMR6M-POD2ve37KdV-3" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="ogPiMR6M-POD2ve37KdV-2" value="Return JSON tool call ({&quot;tool&quot;:&quot;calculator&quot;,&quot;operation&quot;:&quot;mul&quot;,&quot;a&quot;:9,&quot;b&quot;:6})">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="723" y="231" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ogPiMR6M-POD2ve37KdV-11" edge="1" parent="1" source="ogPiMR6M-POD2ve37KdV-2" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="ogPiMR6M-POD2ve37KdV-4" value="POST /tools/calculator">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="820" y="283" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ogPiMR6M-POD2ve37KdV-12" edge="1" parent="1" source="ogPiMR6M-POD2ve37KdV-4" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="ogPiMR6M-POD2ve37KdV-5" value="Execute operation (9 * 6)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1327" y="335" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ogPiMR6M-POD2ve37KdV-13" edge="1" parent="1" source="ogPiMR6M-POD2ve37KdV-5" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="ogPiMR6M-POD2ve37KdV-4" value="Result = 54">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1330" y="387" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ogPiMR6M-POD2ve37KdV-14" edge="1" parent="1" source="ogPiMR6M-POD2ve37KdV-4" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="ogPiMR6M-POD2ve37KdV-2" value="{ &quot;result&quot;: 54 }">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="823" y="439" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ogPiMR6M-POD2ve37KdV-15" edge="1" parent="1" source="ogPiMR6M-POD2ve37KdV-2" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="ogPiMR6M-POD2ve37KdV-1" value="Answer: 54">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="273" y="491" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ogPiMR6M-POD2ve37KdV-16" edge="1" parent="1" source="ogPiMR6M-POD2ve37KdV-1" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="ogPiMR6M-POD2ve37KdV-2" value="&quot;What is the weather in Paris?&quot;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="270" y="543" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ogPiMR6M-POD2ve37KdV-17" edge="1" parent="1" source="ogPiMR6M-POD2ve37KdV-2" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="ogPiMR6M-POD2ve37KdV-3" value="Send task">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="720" y="595" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ogPiMR6M-POD2ve37KdV-18" edge="1" parent="1" source="ogPiMR6M-POD2ve37KdV-3" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="ogPiMR6M-POD2ve37KdV-2" value="{&quot;tool&quot;:&quot;weather&quot;,&quot;city&quot;:&quot;Paris&quot;}">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="723" y="647" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ogPiMR6M-POD2ve37KdV-19" edge="1" parent="1" source="ogPiMR6M-POD2ve37KdV-2" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="ogPiMR6M-POD2ve37KdV-4" value="POST /tools/weather">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="820" y="699" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ogPiMR6M-POD2ve37KdV-20" edge="1" parent="1" source="ogPiMR6M-POD2ve37KdV-4" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="ogPiMR6M-POD2ve37KdV-6" value="Fetch weather">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1427" y="751" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ogPiMR6M-POD2ve37KdV-21" edge="1" parent="1" source="ogPiMR6M-POD2ve37KdV-6" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="ogPiMR6M-POD2ve37KdV-4" value="{ &quot;temperature&quot;: &quot;28°C&quot;, &quot;condition&quot;: &quot;Sunny&quot; }">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1430" y="803" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ogPiMR6M-POD2ve37KdV-22" edge="1" parent="1" source="ogPiMR6M-POD2ve37KdV-4" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="ogPiMR6M-POD2ve37KdV-2" value="Weather data">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="823" y="855" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ogPiMR6M-POD2ve37KdV-23" edge="1" parent="1" source="ogPiMR6M-POD2ve37KdV-2" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="ogPiMR6M-POD2ve37KdV-1" value="Paris: 28°C, Sunny">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="273" y="907" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ogPiMR6M-POD2ve37KdV-24" edge="1" parent="1" source="ogPiMR6M-POD2ve37KdV-1" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="ogPiMR6M-POD2ve37KdV-2" value="&quot;Define polymorphism&quot;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="270" y="959" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ogPiMR6M-POD2ve37KdV-25" edge="1" parent="1" source="ogPiMR6M-POD2ve37KdV-2" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="ogPiMR6M-POD2ve37KdV-3" value="Send task">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="720" y="1011" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ogPiMR6M-POD2ve37KdV-26" edge="1" parent="1" source="ogPiMR6M-POD2ve37KdV-3" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="ogPiMR6M-POD2ve37KdV-2" value="{&quot;tool&quot;:&quot;dictionary&quot;,&quot;word&quot;:&quot;polymorphism&quot;}">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="723" y="1063" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ogPiMR6M-POD2ve37KdV-27" edge="1" parent="1" source="ogPiMR6M-POD2ve37KdV-2" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="ogPiMR6M-POD2ve37KdV-4" value="POST /tools/dictionary">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="820" y="1115" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ogPiMR6M-POD2ve37KdV-28" edge="1" parent="1" source="ogPiMR6M-POD2ve37KdV-4" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="ogPiMR6M-POD2ve37KdV-7" value="Lookup definition">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1527" y="1167" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ogPiMR6M-POD2ve37KdV-29" edge="1" parent="1" source="ogPiMR6M-POD2ve37KdV-7" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="ogPiMR6M-POD2ve37KdV-4" value="Definition result">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1530" y="1219" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ogPiMR6M-POD2ve37KdV-30" edge="1" parent="1" source="ogPiMR6M-POD2ve37KdV-4" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="ogPiMR6M-POD2ve37KdV-2" value="{ &quot;definition&quot;: &quot;polymorphism means: ...&quot; }">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="823" y="1271" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ogPiMR6M-POD2ve37KdV-31" edge="1" parent="1" source="ogPiMR6M-POD2ve37KdV-2" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="ogPiMR6M-POD2ve37KdV-1" value="Sends definition">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="273" y="1323" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
